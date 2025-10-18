@@ -3,7 +3,7 @@ const API_KEY = import.meta.env.VITE_API_KEY
 
 export function useGames(url = null) {
    async function fetchGames() {
-        
-   }     
+      const data = await fetch(`${url}`)
+   }
 
 }
