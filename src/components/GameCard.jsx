@@ -14,8 +14,8 @@ export default function GameCard({ game }) {
       
       <div className="p-3 sm:p-4 flex flex-col gap-3">
         <h1
-          style={{ fontFamily: "PressStart" }}
-          className="text-xs sm:text-sm font-bold text-[#f5f5f5] leading-5 truncate"
+          style={{ fontFamily: "anton" }}
+          className="text-xl sm:text-xl  text-[#f5f5f5] leading-5 truncate"
         >
           {game.name}
         </h1>
