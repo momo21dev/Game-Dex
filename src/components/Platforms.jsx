@@ -16,7 +16,7 @@ export default function Platforms({ setShowPlatforms, showPlatforms, setPlatform
 
   return (
     <div className="relative inline-block text-left">
-      {/* زرار المنصات */}
+     
       <button
         onClick={() => setShowPlatforms(!showPlatforms)}
         className="bg-purple-600 text-white px-4 py-2 rounded-xl shadow-md hover:bg-purple-700 transition-all duration-300 text-sm sm:text-base"
@@ -24,7 +24,7 @@ export default function Platforms({ setShowPlatforms, showPlatforms, setPlatform
         Platforms
       </button>
 
-      {/* القائمة المنسدلة */}
+      
       {showPlatforms && (
         <div className="absolute left-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg z-10 max-h-64 overflow-y-auto">
           {data.length > 0 ? (

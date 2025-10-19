@@ -85,7 +85,11 @@ export default function Home() {
                         w-full max-w-7xl"
                     >
                         {data.results.map((game) => (
-                            <GameCard key={game.id} game={game} />
+                            <GameCard
+                             key={game.id} 
+                             game={game}
+                             
+                             />
                         ))}
                     </div>
 
