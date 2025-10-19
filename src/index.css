@@ -8,3 +8,8 @@ body {
   font-family: 'PressStart';
   src: url('/fonts/PressStart2P-Regular.ttf');
 }
+
+@font-face {
+  font-family: 'anton';
+  src: url('/fonts/Anton-Regular.ttf');
+}
